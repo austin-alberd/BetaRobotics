@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            function sayStop(){
+                const audio = new Audio("stop.m4a");
+                audio.play();
+            }
+            function sayFM(){
+                const audio = new Audio("followMe.m4a");
+                audio.play();
+            }
+            function sayLol(){
+                const audio = new Audio("lol.m4a");
+                audio.play();
+            }
+        </script>
+        <link rel="stylesheet" href="style.css">
+        <title>ROBO-SRO Voice Dashboard</title>
+    </head>
+    <body>
+        <h1>ROBO-SRO Voice Dashboard</h1>
+        <div id="buttons">
+            <button onclick="javascript:sayStop()">Say: Stop</button>
+            <button onclick="javascript:sayFM()">Say: Follow Me</button>
+            <button onclick="javascript:sayLol()">Say: Funny Line</button>
+        </div>
+    </body>
+</html>
